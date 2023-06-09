@@ -1,0 +1,25 @@
+{
+    "name": "Ext Image To Text",
+    "description": "Have fun!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "scripting",
+      "pageCapture",
+      "downloads",
+      "storage"
+    ],
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "action": {
+      "default_title": "Now, Image To Text!!!"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
